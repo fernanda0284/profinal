@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css "integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+    <title> Inicioo </title>
+</head>
+<body>
+	<div style="margin: 24px;">
+      <nav class="navbar navbar-light" style="background-color: #c3cde6;">
+
+      	<div class="container">
+      		<a class="navbar-brand" href="index.html">Inicio</a>
+      		<ul class="nav navbar-nav">
+                <li class="active">
+                	<a href="footer.html">Menu</a>
+                </li>
+                <li>
+                	<a href="formulario.html">Cuestionario</a>
+                </li>
+                <li>
+                	<a href="res.html">Resultado</a>
+                </li>
+                <li>
+                	<a href="contacto.html">Contacto</a>
+                </li>
+                 <li>
+                  <a href="apimovie.html">Peliculas</a>
+                </li>
+                 <li>
+                  <a href="Cafisica.html">Fisica</a>
+                </li>
+                 <li>
+                  <a href="calc.html">Calculadora</a>
+                </li>
+                
+                <li>
+                  <a href="perfil.html">Perfil</a>
+                </li>
+      		</ul>
+      	</div>
+      </nav>
+      <source src="index.mp4" type="video/mp4">
+        </video> 
+      <h1 class="titulo"> BIENVENIDOS </h1>
+      </div>
+      <style>
+      footer{
+        background-color: #c3cde6;
+        color: white;
+        padding: 60px 0;
+      }
+      .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .footer-content{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .footer-selection{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .about{
+        text-align: center;
+      }
+      .about h2{
+        margin-bottom: 20px;
+      }
+      .about p{
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .contact-list{
+        display: flex;
+        justify-content: center;
+      }
+      .contact-list a{
+        display: inline-block;
+        color: black;
+        font-size: 24px;
+        margin: 0 10px;
+        transition: all 0.3s ease;
+      }
+      .contact-list a:hover{
+        transform: translateY(-5px);
+        color: white;
+      }
+      
+      .titulo{
+        font-family: 'Modern LED Board-7', sans-serif;
+        font-size: 150px;
+        background: black;
+        text-align: center;
+        font-weight: 200%;
+        mix-blend-mode: multiply;
+      }
+      </style>
+  <footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2> contactame </h2>
+          <p> si estas interesado en contactarme, puedes hacerlo a traves de cualquier de las siguienbtes redes sociales</p>
+          <div class="contact-links">
+            <a href="https://ww.facebook.com/miperfil" target="_blank"><i class="fab-facebook"></i></a>
+            <a href="https://ww.instagram.com/miperfil" target="_blank"><i class="fab-instagram"></i></a>
+            <a href="https://ww.twitter.com/miperfil" target="_blank"><i class="fab-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      const socialnetworks = document.querySelectorAll('.contact-links a');
+      socialnetworks.forEach(link =>{
+        link.addEventListener('click',e =>{
+          e.preventDefault()
+          window.open(link.href, '_blank');
+        })
+      })
+    </script>
+    </footer>
+</body>
+</html>
